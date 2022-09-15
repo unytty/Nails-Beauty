@@ -352,7 +352,6 @@ hr{
     border-radius: 5px;
 }
 .user-info img{
-    padding: 50px 0 0 0;
     margin: 0 0 0 10px;
     color:#27c0ff;
     width: 20px;
@@ -369,6 +368,9 @@ hr{
 @media screen and (max-width:770px) {
     .testimonial-col{
         flex-basis: 100%;
+    }
+    .user{
+        justify-content: center;
     }
 }
 
@@ -421,3 +423,27 @@ hr{
     transform: translate(-50%,-50%);
 }
 
+.social-links{
+    text-align: center;
+}
+.social-links img{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 10px;
+    border: 1px solid #060930;
+    margin: 40px 5px 0;
+    color:#060930;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.social-links img:hover{
+    transform: translateY(7px);
+}
+
+.social-links p{
+    font-size: 12px;
+    margin-top: 20px;
+}
